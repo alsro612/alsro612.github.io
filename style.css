@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'GangwonEduSaeeum_OTFMediumA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PartialSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTWanjudaedunsancheB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    color: #000000;
+    background-color: azure;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: double;
+    border-width: 15px;
+    border-color: black;
+    border-radius: 30px;
+    font-size: 50px;
+    box-shadow: 10px 10px 5px #0026ff;
+    font-family: TTWanjudaedunsancheB;
+}
+
+h2 {
+    color: #222;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: dashed;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #0026ff;
+    font-family: TTWanjudaedunsancheB;
+
+}
+
+h2::first-letter{
+    font-size: 30px;
+    background-color: #000000;
+    color:aqua;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: chocolate;
+}
+
+h2:hover {
+    background-color: brown;
+}
+
+h2:hover::first-letter {
+border-color:  #0026ff;
+backgrounf-color: #000000;
+color:bisque;
+
+}
+
+p {
+    text-indent: 20px;
+    line-height: 200%;
+    font-size: 25px;
+    font-family: GangwonEduSaeeum_OTFMediumA;
+}
